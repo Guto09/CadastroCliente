@@ -18,10 +18,7 @@ public class CadastroCliente {
      */
     public static void main(String[] args) {
        cadastroCliente telaCadastroCliente = new cadastroCliente();
-       /**
- *
- * @author pc05
- */
+       
        telaCadastroCliente.setVisible(true);
     }
     
