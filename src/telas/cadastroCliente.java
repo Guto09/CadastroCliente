@@ -241,15 +241,6 @@ public class cadastroCliente extends javax.swing.JFrame {
         cliente.setCfp(tfcpf.getText());
         cliente.setRua(tfRua.getText());
         
-        
-        
-        cliente.setNome(tfNome.getText());
-        cliente.setSobrenome(tfSobrenome.getText());
-        cliente.setCfp(tfcpf.getText());
-        cliente.setRua(tfRua.getText());
-        
-        
-        
         try {
         cliente.setNumeroRua(Integer.parseInt(tfNumero.getText()));    
         } catch (Exception e) {
