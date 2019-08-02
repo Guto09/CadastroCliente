@@ -25,10 +25,7 @@ public class cadastroCliente extends javax.swing.JFrame {
         cliente = new Cliente();
     }
     private void limparCampos() {
-        cliente.setId(0);
-        cliente.setNome("");
-        cliente.setSobrenome("");
-        cliente.setRua("");
+        
         cliente.setNumeroRua(0);
     }
     
